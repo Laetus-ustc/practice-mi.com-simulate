@@ -6,45 +6,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id='titleBar'>
-        <div>
+    <div class='bgb'>
+    <div class='titleBar outsideFrame' id='titleBar'>
+        <div class='leftFloat'>
             <ul id='titleBarLeftList'>
-                <li>小米商城</li>
+                <li class='firstLi'>小米商城</li>
+                <li class='divLine'>|</li>
                 <li>MIUI</li>
+                <li class='divLine'>|</li>
                 <li>IoT</li>
+                <li class='divLine'>|</li>
                 <li> 云服务</li>
+                <li class='divLine'>|</li>
                 <li>天星数科</li>
+                <li class='divLine'>|</li>
                 <li>有品</li>
+                <li class='divLine'>|</li>
                 <li>爱开放平台</li>
+                <li class='divLine'>|</li>
                 <li>企业团购</li>
+                <li class='divLine'>|</li>
                 <li>资质证照</li>
+                <li class='divLine'>|</li>
                 <li>协议规则</li>
+                <li class='divLine'>|</li>
                 <li>下载app</li>
+                <li class='divLine'>|</li>
                 <li>智能生活</li>
+                <li class='divLine'>|</li>
                 <li>Select Location</li>
             </ul>
         </div>
-        <div>
-            <div>
+        <div class='rightFloat' id='shoppingCart'>
+            <div class="cartBackground">
+                <div><img></div>
+                <div>购物车</div>
+                <div>(0)</div>
+            </div>
+        </div>
+        <div class='rightFloat'>
                 <ul id='titleBarRightList'>
-                    <li>登录</li>
+                    <li class='firstLi'>登录</li>
+                    <li class='divLine'>|</li>
                     <li>注册</li>
+                    <li class='divLine'>|</li>
                     <li>消息通知</li>
                 </ul>
-            </div>
         </div>
-        <div id='shoppingCart'>
-            <div><img></div>
-            <div>购物车</div>
-            <div>(0)</div>
-        </div>
+        <div class='cl'></div>
     </div>
-    <div id='headBar'>
-        <div>
-            <div>
-                <div id='headBarLogo'><img src='https://s02.mifile.cn/assets/static/image/logo-mi2.png'></div>
+    </div>
+    <div class='bgw'>
+    <div class='outsideFrame' id='headBar'>
+        <div class='headBar'>
+            <div class='leftFloat headBarIcon'>
+                <img src='https://s02.mifile.cn/assets/static/image/logo-mi2.png' height="56px">
             </div>
-            <div>
+            <div class="leftFloat">
                 <ul>
                     <li>小米手机</li>
                     <li>Redmi 红米</li>
@@ -57,16 +75,18 @@
                     <li>社区</li>
                 </ul>
             </div>
-            <div id='serachBar'>
+            <div class="leftFloat" id='serachBar'>
                 <form>
-                    <input type='text'>
-                    <input type='submit'>
+                    <input class='searchInput' id='searchInput' type='text'>
+                    <input class='searchSubmit' id='searchSubmit' type='submit'>
                 </form>
             </div>
         </div>
         <div></div><!--用于鼠标悬停列表时展示详细信息-->
     </div>
-    <div id='banner'>
+    </div>
+    <div class='bgw'>
+    <div class='outsideFrame' id='banner'>
         <div id='scrollPicture'></div>
         <div id='bannerProductList'>
             <ul>
@@ -86,7 +106,9 @@
             
         </div>
     </div>
-    <div id='recommendedProducts'>
+    </div>
+    <div class='bgw'>
+    <div class='outsideFrame' id='recommendedProducts'>
         <div>
             <ul>
                 <li>小米秒杀</li>
@@ -103,8 +125,9 @@
             <div><img></div>
         </div>
     </div>
-
-    <ul id='productsList'>
+    </div>
+    <div class='bgg'>
+    <ul class='outsideFrame' id='productsList'>
         <li>
             <div></div><!--最上面的banner-->
             <div>手机</div>
@@ -227,7 +250,9 @@
             </div>
         </li>
     </ul>
-    <div id='videosBar'>
+    </div>
+    <div class='bgg'>
+    <div class='outsideFrame' id='videosBar'>
         <div>视频</div><div>查看全部</div>
         <ul>
             <li></li>
@@ -236,8 +261,9 @@
             <li></li>
         </ul>
     </div>
-
-    <div id='feetBar'>
+    </div>
+    <div class='bgw'>
+    <div class='outsideFrame' id='feetBar'>
         <div>
             <ul>
                 <li>预约维修服务</li>
@@ -285,7 +311,9 @@
             <div>关注小米</div>
         </div>
     </div>
-    <div>
+    </div>
+    <div class="bgg">
+    <div class='outsideFrame'>
         <div>
             <div><img src='https://s02.mifile.cn/assets/static/image/logo-mi2.png'></div>
         </div>
@@ -303,7 +331,9 @@
             <img><img><img><img><img>
         </div>
     </div>
-    <div>让全球每个人都能享受科技带来的美好生活</div>
+    </div>
+
+    <div class='bgg'>让全球每个人都能享受科技带来的美好生活</div>
 
     <div id='floatBar'>
         <div><ul>
