@@ -17,6 +17,7 @@ ul {
 }
 .bgb {
     background-color: rgb( 51, 51, 51);
+    width: auto;
 }
 .leftFloat {
     float: left;
@@ -104,7 +105,7 @@ ul {
     background-color: rgb(255,255,255);
 }
 
-.banner {
+.topBanner {
     position: relative;
     height: 460px;
 }
@@ -128,7 +129,7 @@ ul {
 }
 
 .recommendedProducts {
-    margin-top: 14px;
+    margin-top: 23px;
     position: relative;
     height: 170px;
 
@@ -139,9 +140,28 @@ ul {
     background-color: rgb( 95, 87, 80);
 }
 .recommendedProducts > div:nth-child(n+2) {
-    border-left: 14px;
     height: 170px;
     width: 316px;
+}
+.recommendedProducts > div:nth-child(n+2) img {
+    height: 170px;
+}
+.recommendedProducts > div:nth-child(2) > img {
+    position: absolute;
+    left: 256px;
+    top: 0px;
+}
+
+.recommendedProducts > div:nth-child(3) > img {
+    position: absolute;
+    left: 595px;
+    top: 0px;
+}
+
+.recommendedProducts > div:nth-child(4) > img {
+    position: absolute;
+    left: 934px;
+    top: 0px;
 }
 .recommendedProducts > div:nth-child(1) li {
     position: relative;
@@ -158,5 +178,27 @@ ul {
 .recommendedProducts > div:nth-child(1) li p {
     position: relative;
     left: -5px;
-    
+}
+
+
+
+.productsList > li > .productsListTitle {
+    height: 58px;
+}
+.productsList > li > .productsListTitle > .columnName {
+    float: left;
+    line-height: 58px;
+    font-size: 18px;
+}
+.productsList > li > .productsListTitle > .seeMoreButton {
+    float: right;
+    line-height: 58px;
+    font-size: 12px;
+}
+.productsList > li > .productsListTitle > .seeMoreButton div {
+    display: inline;
+    margin-left: 30px;
+}
+.productsList > li > .littleBanner {
+    height: 614px;
 }
