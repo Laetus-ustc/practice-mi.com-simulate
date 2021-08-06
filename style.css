@@ -19,6 +19,12 @@ ul {
     background-color: rgb( 51, 51, 51);
     width: auto;
 }
+.bgMiOrange {
+    background-color: rgb(255,103,  0);
+}
+.miOrange {
+    color: rgb(255,103,  0);
+}
 .leftFloat {
     float: left;
 }
@@ -66,7 +72,6 @@ ul {
 .headBar {
     position: relative;
     height: 100px;
-    /*background-color:blue;/*test*/
 }
 .headBar > div:nth-child(1) {
     position: absolute;
@@ -129,7 +134,8 @@ ul {
 }
 
 .recommendedProducts {
-    margin-top: 23px;
+    margin-top: 26px;
+    margin-bottom: 30px;
     position: relative;
     height: 170px;
 
@@ -182,23 +188,134 @@ ul {
 
 
 
-.productsList > li > .productsListTitle {
+.productsList .productsListTitle {
     height: 58px;
 }
-.productsList > li > .productsListTitle > .columnName {
+.productsList .productsListTitle > .columnName {
     float: left;
     line-height: 58px;
     font-size: 18px;
 }
-.productsList > li > .productsListTitle > .seeMoreButton {
+.productsList .productsListTitle > .seeMoreButton {
     float: right;
     line-height: 58px;
     font-size: 12px;
 }
-.productsList > li > .productsListTitle > .seeMoreButton div {
+.productsList .productsListTitle > .seeMoreButton div {
     display: inline;
     margin-left: 30px;
 }
 .productsList > li > .littleBanner {
     height: 614px;
+}
+.videosBar ul {
+    position: relative;
+    height: 300px;
+}
+.videosBar ul > li {
+    float: left;
+    width: 296px;
+    height: 285px;
+    background-color:aquamarine;/*test*/
+}
+.videosBar ul > li:nth-child(n+2) {
+    margin-left: 22px;
+}
+.videosBar > div:last-child {
+    height: 10px;
+}
+
+
+.feetBar > .afterSaleBar > ul {
+    height: 79px;
+    border-bottom: 1px solid rgb(224,224,224);
+}
+.feetBar > .afterSaleBar li {
+    float: left;
+    width: 250px;
+}
+.feetBar > .afterSaleBar li > p {
+    line-height: 79px;
+    text-align: center;
+}
+.feetBar > .inSiteLinkAndContact {
+    margin-top: 40px;
+    /*margin-bottom: 40px;*/
+    height: 170px;
+}
+.feetBar > .inSiteLinkAndContact > div {
+    float: left;
+}
+.feetBar > .inSiteLinkAndContact > .inSiteLink > dl {
+    float: left;
+    height: 170px;
+    width: 160px;
+}
+.feetBar > .inSiteLinkAndContact > .inSiteLink > dl > dt {
+    color: rgb( 66, 66, 66);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.feetBar > .inSiteLinkAndContact > .inSiteLink > dl > dd {
+    color: rgb(117,117,117);
+    font-size: 16px;
+    line-height: 26px;
+}
+.feetBar > .inSiteLinkAndContact > .contact {
+    box-sizing: border-box;
+    width: 290px;
+    border-left: 1px solid rgb(224,224,224);
+}
+.feetBar > .inSiteLinkAndContact > .contact > div {
+    margin: 5px auto;
+    text-align: center;
+}
+.feetBar > .inSiteLinkAndContact > .contact > div:nth-child(1) {
+    font-size: 26px;
+    color: rgb(255,103,  0);
+}
+.feetBar > .inSiteLinkAndContact > .contact > div:nth-child(2) {
+    font-size: 14px;
+}
+.feetBar > .inSiteLinkAndContact > .contact > div:nth-child(3) {
+    font-size: 16px;
+    color: rgb(255,103,  0);
+    height: 31px;
+}
+.feetBar > .inSiteLinkAndContact > .contact > div:nth-child(3) > span {
+    position: relative;
+    top: 7px;
+    padding: 5px 15px;
+    border: 2px solid rgb(255,103,  0);
+}
+.feetBar > .inSiteLinkAndContact > .contact > div:nth-child(4) {
+    font-size: 16px;
+}
+
+.friendsLinkBar {
+    position: relative;
+    
+}
+.friendsLinkBar > .icon {
+    position: absolute;
+    top: 10px;
+}
+.friendsLinkBar > .text {
+    position: absolute;
+    top: 10px;
+    left: 66px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.friendsLinkBar > .text > p:nth-child(1) {
+    color: rgb(117,117,117);
+}
+.friendsLinkBar > .text > p:nth-child(2) {
+    color: rgb(176,176,176);
+}
+.friendsLinkBar > .slogan {
+    position: absolute;
+    left: 441px;
+    top: 120px;
+    padding: 30px;
 }
